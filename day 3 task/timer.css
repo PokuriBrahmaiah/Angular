@@ -1,0 +1,19 @@
+.Title{
+    color:black;
+    font-family:"Roboto";
+    font-size:36px;
+    text-align:center;
+}
+.container{
+    width:60%;
+    height:60%;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:20%
+}
+.image{
+    width:100%;
+    height:100%;
+}
