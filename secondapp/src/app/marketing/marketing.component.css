@@ -1,0 +1,21 @@
+.marketing{
+    height:166px;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 20px;
+
+    color: white;
+    float: left;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 210, 210);
+}
