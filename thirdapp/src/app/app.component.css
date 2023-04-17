@@ -1,0 +1,42 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+    padding-right: 30px;
+
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(16, 13, 13);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #650505;
+}
+.mid{
+  background-image: url("http://localhost/business1.jpg");
+  width:100%;
+  height:400px;
+  background-size: cover;
+  margin:0px;
+  margin-top: 0%;
+
+}
+.green{
+
+height: 50px;
+width: 50px;
+margin-left: 10%;
+
+
+}

@@ -1,0 +1,46 @@
+.our{
+    position: absolute;
+    margin-left: 37%;
+    margin-top:1%;
+
+
+}
+.down{
+    position: absolute;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-top:6%;
+
+    }
+.do{
+    position: absolute;
+    font-size: x-large;
+    margin-left: 40%;
+    margin-top:6%;
+
+}    
+.dp{
+    position: absolute;
+    font-size: x-large;
+    margin-left: 70%;
+    margin-top:6%;
+
+} 
+.dw{
+    position: absolute;
+    margin-left:10%;
+    margin-top:9%;
+
+}
+.d2{
+    position: absolute;
+    margin-left: 40%;
+    margin-top:9%;
+
+}
+.d3{
+    position: absolute;
+    margin-left: 70%;
+    margin-top:9%;
+
+}
