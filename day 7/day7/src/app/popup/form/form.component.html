@@ -1,0 +1,27 @@
+<div class="form">
+    <div class="formContainer">
+    <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+      <mat-label>Last Name</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Branch </mat-label>
+        <mat-select>
+          <mat-option value="CSE">CSE</mat-option>
+          <mat-option value="IT">IT</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Choose date</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+</div>
+</div>
