@@ -1,0 +1,18 @@
+#wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.features{
+    margin-left: 75%;
+    display: flex;
+}
+.slidebar{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.category{
+    padding: 40px;
+    margin-top: 5px;
+}

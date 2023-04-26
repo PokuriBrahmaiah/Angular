@@ -1,0 +1,18 @@
+<div class="features">
+    <div class="category">
+        <select [(ngModel)]="type">
+            <option *ngFor="let x of options">{{x}}</option>
+        </select>
+    </div>
+    <div class="slidebar">
+    <mat-slider min="0" max="1000" step="100">
+        <input [(value)]="minimum" matSliderStartThumb>
+        <input [(value)]="maximum" matSliderEndThumb>
+    </mat-slider>
+    </div>
+    
+</div>
+
+<div id="wrapper">
+    <app-product-box *ngFor="let x of productlist | typefilter: type| pricerange: minimum:maximum"[products]="x"></app-product-box>
+</div>

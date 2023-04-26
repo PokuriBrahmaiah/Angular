@@ -1,0 +1,32 @@
+.product-box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.image-holder{
+    height: 80%;
+    width: 100%;
+}
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    height: 20%;
+    font-size: 15px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.price{
+    margin-left: 80px;
+}
+
